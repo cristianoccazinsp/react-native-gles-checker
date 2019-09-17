@@ -1,12 +1,8 @@
 package com.zinspector.gleschecker;
 
 import android.app.ActivityManager;
-import android.content.ComponentName;
-import android.content.Intent;
-import android.os.Build;
-import android.util.Log;
 
-import com.facebook.react.bridge.Arguments;
+
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -32,7 +28,7 @@ public class GlesCheckerModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void getGlesVersion(ReadableMap data, Promise promise) {
 
-        ActivityManager activityManager = (ActivityManager) getSystemService(reactContext.ACTIVITY_SERVICE);
+        ActivityManager activityManager = (ActivityManager) reactContext.getSystemService(reactContext.ACTIVITY_SERVICE);
 
         try{
             promise.resolve(activityManager.getDeviceConfigurationInfo().getGlEsVersion());

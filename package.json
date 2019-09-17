@@ -2,32 +2,32 @@
   "name": "react-native-gles-checker",
   "title": "React Native Gles Checker",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Simple native module to obtain OpenGL ES version",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-gles-checker.git",
-    "baseUrl": "https://github.com/github_account/react-native-gles-checker"
+    "url": "git+https://github.com/cristianoccazinsp/react-native-gles-checker.git",
+    "baseUrl": "https://github.com/cristianoccazinsp/react-native-gles-checker"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Cristiano",
+    "email": "cristiano@zinspector.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "^16.8.1",
-    "react-native": ">=0.59.0-rc.0 <1.0.x"
+    "react": "*",
+    "react-native": ">=0.60.0"
   },
   "devDependencies": {
-    "react": "^16.8.3",
-    "react-native": "^0.59.10"
+    "react": "*",
+    "react-native": ">=0.60.0"
   }
 }
