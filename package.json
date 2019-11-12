@@ -1,33 +1,62 @@
 {
-  "name": "react-native-gles-checker",
-  "title": "React Native Gles Checker",
-  "version": "1.0.0",
+  "_args": [
+    [
+      "github:cristianoccazinsp/react-native-gles-checker",
+      "/Users/cristiano/Desktop/trabajo/zinspector/mobileRN/zinspector3"
+    ]
+  ],
+  "_from": "github:cristianoccazinsp/react-native-gles-checker",
+  "_id": "react-native-gles-checker@github:cristianoccazinsp/react-native-gles-checker#c9bf6eae0de5b551e42b0e795aeb74a671b981eb",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-gles-checker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:cristianoccazinsp/react-native-gles-checker",
+    "rawSpec": "github:cristianoccazinsp/react-native-gles-checker",
+    "saveSpec": "github:cristianoccazinsp/react-native-gles-checker",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:cristianoccazinsp/react-native-gles-checker#c9bf6eae0de5b551e42b0e795aeb74a671b981eb",
+  "_spec": "github:cristianoccazinsp/react-native-gles-checker",
+  "_where": "/Users/cristiano/Desktop/trabajo/zinspector/mobileRN/zinspector3",
+  "author": {
+    "name": "Cristiano",
+    "email": "cristiano@zinspector.com"
+  },
+  "bugs": {
+    "url": "https://github.com/cristianoccazinsp/react-native-gles-checker/issues"
+  },
   "description": "Simple native module to obtain OpenGL ES version",
+  "devDependencies": {
+    "react": "*",
+    "react-native": ">=0.60.0"
+  },
+  "homepage": "https://github.com/cristianoccazinsp/react-native-gles-checker#readme",
+  "keywords": [
+    "react-native"
+  ],
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "react-native-gles-checker",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.60.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cristianoccazinsp/react-native-gles-checker.git",
     "baseUrl": "https://github.com/cristianoccazinsp/react-native-gles-checker"
   },
-  "keywords": [
-    "react-native"
-  ],
-  "author": {
-    "name": "Cristiano",
-    "email": "cristiano@zinspector.com"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "MIT",
-  "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
-  "peerDependencies": {
-    "react": "*",
-    "react-native": ">=0.60.0"
-  },
-  "devDependencies": {
-    "react": "*",
-    "react-native": ">=0.60.0"
-  }
+  "title": "React Native Gles Checker",
+  "version": "1.0.0"
 }

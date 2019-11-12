@@ -26,7 +26,7 @@ public class GlesCheckerModule extends ReactContextBaseJavaModule {
 
 
     @ReactMethod
-    public void getGlesVersion(ReadableMap data, Promise promise) {
+    public void getGlesVersion(Promise promise) {
 
         ActivityManager activityManager = (ActivityManager) reactContext.getSystemService(reactContext.ACTIVITY_SERVICE);
 
