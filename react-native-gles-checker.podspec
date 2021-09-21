@@ -5,7 +5,8 @@ package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 Pod::Spec.new do |s|
   s.name         = "react-native-gles-checker"
   s.version      = package["version"]
-  s.summary      = package["description"]
+  s.summary      = package["summary"]
+  s.description  = package["description"]
   s.license      = "MIT"
   s.homepage     = package['homepage']
   s.authors      = { "Cristiano" => "cristiano@zinspector.com" }
