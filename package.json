@@ -10,7 +10,7 @@
   "description": "Queries native feature for OpenGL ES versions",
   "devDependencies": {
     "react": "*",
-    "react-native": ">=0.60.0"
+    "react-native": ">=0.66.0"
   },
   "homepage": "https://github.com/cristianoccazinsp/react-native-gles-checker#readme",
   "keywords": [
@@ -22,7 +22,7 @@
   "name": "react-native-gles-checker",
   "peerDependencies": {
     "react": "*",
-    "react-native": ">=0.60.0"
+    "react-native": ">=0.66.0"
   },
   "repository": {
     "type": "git",
@@ -33,5 +33,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "title": "React Native Gles Checker",
-  "version": "1.0.2"
+  "version": "1.1.0"
 }
