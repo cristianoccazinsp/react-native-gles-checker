@@ -10,7 +10,10 @@
   "description": "Queries native feature for OpenGL ES versions",
   "devDependencies": {
     "react": "*",
-    "react-native": ">=0.66.0"
+    "react-native": ">=0.66.0",
+    "@react-native-community/eslint-config": "3.0.1",
+    "metro-react-native-babel-preset": "0.67.0",
+    "eslint": "^7.32.0"
   },
   "homepage": "https://github.com/cristianoccazinsp/react-native-gles-checker#readme",
   "keywords": [
@@ -30,8 +33,9 @@
     "baseUrl": "https://github.com/cristianoccazinsp/react-native-gles-checker"
   },
   "scripts": {
+    "lint": "eslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "title": "React Native Gles Checker",
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
